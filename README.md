@@ -9,7 +9,7 @@ From count matrices to SDR (significantly delayed region) identification and cha
 This repository aims at demonstrating the computational analysis that lead to some results exposed in the paper :  
 [*Transcription-mediated organization of the replication initiation program across large genes promotes common fragile sites genome-wide*]( https://doi.org/10.1101/714717 ).  
  
-We provide here the methods for analyzing Repli-seq data, such as our publically available **--ADD Geo link here--** under normal versus replication stress conditions, aiming at identifying and characterizing SDR (significantly delayed regions) which we showed to be correlated with molecular mapping of common fragile in human lymphocytes.  
+We provide here the methods for analyzing Repli-seq data, such as our publically available **--ADD Geo link here--** normal growth conditions versus replication stress conditions, aiming at identifying and characterizing SDR (significantly delayed regions) which we showed to be correlated with molecular mapping of common fragile in human lymphocytes.  
 
 This repository features R scripts as well as bashscripts.  
 The detailed analysis methods are presented in the following sections and executable source code can be found in src/  
@@ -34,8 +34,10 @@ Don't hesitate to contact the authors or open an issue for any question.
 
 ## Calculate Under Replication Index (URI) :
 
-As a first step we propose to measure the effect of  DNA replicated under stress condition (Aph) simulated with Aphidicolin, an inhibitor of DNA polymerase II compared to normal growth conditions (NT). 
+As a first step we propose to measure the effect of DNA replicated under stress condition (Aph) simulated with Aphidicolin, an inhibitor of DNA polymerase II compared to normal growth conditions (NT). 
 We defined URI as the Z-score of the difference between the sum of reads per genomic window (50kb here) in cells treated (Aph) or not (NT) with Aph (Delta(Aph-NT))
+
+
 
 
 

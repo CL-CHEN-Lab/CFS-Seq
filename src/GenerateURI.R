@@ -37,16 +37,28 @@ Aph_paths <- paste0("../inst/extdata/Aph1-",rs_fractions,".bdg")
 # load Repli-seq :
 NT_50kb <- RepliSeq::readRS(NT_paths,rs_fractions)
 head(NT_50kb,2)
+# chr start   stop    S1    S2    S3    S4    S5    S6
+# 1 chr1     0  50000 0.591 0.753 0.483 0.301 0.169 0.277
+# 2 chr1 50000 100000 0.263 0.205 0.563 0.354 0.674 0.661
 Aph_50kb <- RepliSeq::readRS(Aph_paths,rs_fractions)
 head(Aph_50kb,2)
+# chr start   stop    S1    S2    S3    S4    S5    S6
+# 1 chr1     0  50000 0.405 0.595 0.549 0.287 0.189 0.218
+# 2 chr1 50000 100000 0.498 0.486 0.566 0.517 0.465 0.369
 
 # calculate URI :
 URI_Aph_NT <- RepliSeq::calculateURI(Aph_50kb,NT_50kb)
 head(URI_Aph_NT,2)
+# chr start   stop sum_x sum_y mean_xy        URI
+# 1 chr1     0  50000 2.243 2.574  2.4085 -0.7684050
+# 2 chr1 50000 100000 2.901 2.720  2.8105  0.4416197
 
 # write BED :
 to_write <- URI_Aph_NT %>% select(chr,start,stop,URI)
 head(to_write,2)
+# chr start   stop        URI
+# 1 chr1     0  50000 -0.7684050
+# 2 chr1 50000 100000  0.4416197
 write.table(to_write,
             file = "../inst/outputs/URI_Aph1_NT1_50kb.bed",
             quote = FALSE,

@@ -1,17 +1,17 @@
 
-# This file is part of CFS-seq.
+# This file is part of CFS-Seq.
 # 
-# CFS-seq is free software: you can redistribute it and/or modify
+# CFS-Seq is free software: you can redistribute it and/or modify
 # it under the terms of the GNU General Public License as published by
 # the Free Software Foundation version 3.
 # 
-# CFS-seq is distributed in the hope that it will be useful,
+# CFS-Seq is distributed in the hope that it will be useful,
 # but WITHOUT ANY WARRANTY; without even the implied warranty of
 # MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
 # GNU General Public License for more details.
 # 
 # You should have received a copy of the GNU General Public License
-# along with Foobar.  If not, see <https://www.gnu.org/licenses/>.
+# along with CFS-Seq.  If not, see <https://www.gnu.org/licenses/>.
 
 ## ---------------------------
 ##

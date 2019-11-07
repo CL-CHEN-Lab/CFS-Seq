@@ -34,14 +34,21 @@ Don't hesitate to contact the authors or open an issue for any question.
 
 ## Calculate Under Replication Index (URI) :
 
-As a first step we propose to measure the effect of DNA replicated under stress condition (Aph) simulated with Aphidicolin, an inhibitor of DNA polymerase II compared to normal growth conditions (NT). 
-We defined URI as the Z-score of the difference between the sum of reads per genomic window (50kb here) in cells treated (Aph) or not (NT) with Aph (Delta(Aph-NT))
+As a first step we propose to measure the effect of DNA replicated under stress condition (Aph) simulated with Aphidicolin, an inhibitor of DNA polymerase II compared to normal growth conditions (NT). The following replication profiles at FHIT and WWOX, two major CFS, show how URI translate the difference between the normal profile (NT) displayed in grey and the replication stress condition (Aph) displayed in black.
 
 <p align="center">
 <img src="inst/img/FHIT_WWOX_replication_profiles.png" width="400" height="400">
  </p>
  
-These replication profiles at FHIT and WWOX, two major CFS, show how URI translate the difference between the normal profile (NT) displayed in grey and the replication stress condition (Aph) displayed in black.
+ We defined URI as the Z-score of the difference between the sum of reads per genomic window (50kb here) in cells treated with Aph (Aph) or not (NT) (=> Delta(Aph-NT)) and it's calculation is implemented in the [RepliSeq package](https://github.com/CL-CHEN-Lab/RepliSeq).  
+The results presented in the paper (Brison et al.) were obtained by calculating URI based on the comparison of 50kb adjacent windows profiles for which the sum of each fraction (S1-6) was normalized to 15M (data in [inst/extdata](https://github.com/CL-CHEN-Lab/CFS-Seq/tree/master/inst/extdata)).
+ 
+ ```{r}
+ 
+ 
+ 
+ ```
+
 
 
 ## Generate Significantly Delayed Windows (SDW) and Regions (SDR) :

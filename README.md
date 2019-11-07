@@ -23,6 +23,7 @@ This methods make use of  R (>=3.4.4) packages :
 
 We also made use of :  
 * bedtools (>= v2.25.0)
+* wigToBigWig (>= v4)
 
 ## Authors : 
 
@@ -41,15 +42,10 @@ As a first step we propose to measure the effect of DNA replicated under stress 
  </p>
  
  We defined URI as the Z-score of the difference between the sum of reads per genomic window (50kb here) in cells treated with Aph (Aph) or not (NT) (=> Delta(Aph-NT)) and it's calculation is implemented in the [RepliSeq package](https://github.com/CL-CHEN-Lab/RepliSeq).  
-The results presented in the paper (Brison et al.) were obtained by calculating URI based on the comparison of 50kb adjacent windows profiles for which the sum of each fraction (S1-6) was normalized to 15M (data in [inst/extdata](https://github.com/CL-CHEN-Lab/CFS-Seq/tree/master/inst/extdata)).
- 
- ```{r}
- 
- 
- 
- ```
+The results presented in the paper (Brison et al.) were obtained by calculating URI based on the comparison of 50kb adjacent windows profiles for which the sum of each fraction (S1-6) was normalized to 15M (data in [inst/extdata](https://github.com/CL-CHEN-Lab/CFS-Seq/tree/master/inst/extdata)).  
 
-
+The script for generating URI_Aph1_NT1_50kb.[bed/wig/bw] is at [src/GenerateURI.R](https://github.com/CL-CHEN-Lab/CFS-Seq/tree/master/src/GenerateURI.R))
+ 
 
 ## Generate Significantly Delayed Windows (SDW) and Regions (SDR) :
 

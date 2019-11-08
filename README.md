@@ -11,7 +11,7 @@ This repository aims at demonstrating the computational analysis that lead to so
  
 We provide here the methods for analyzing Repli-seq data, such as our publically available **--ADD Geo link here--** normal growth conditions versus replication stress conditions, aiming at identifying and characterizing SDR (significantly delayed regions) which we showed to be correlated with molecular mapping of common fragile sites (CFS) in human lymphocytes.  
 
-This repository features R scripts as well as bashscripts.  
+This repository contains R scripts which also feature system() calls to run bash commands.  
 The detailed analysis methods are presented in the following sections and executable source code can be found in src/  
 
 ## Dependencies :
@@ -44,7 +44,7 @@ As a first step we propose to measure the effect of DNA replicated under stress 
  We defined URI as the Z-score of the difference between the sum of reads per genomic window (50kb here) in cells treated with Aph (Aph) or not (NT) (=> Delta(Aph-NT)) and it's calculation is implemented in the [RepliSeq package](https://github.com/CL-CHEN-Lab/RepliSeq).  
 The results presented in the paper (Brison et al.) were obtained by calculating URI based on the comparison of 50kb adjacent windows profiles for which the sum of each fraction (S1-6) was normalized to 15M (data in [inst/extdata](https://github.com/CL-CHEN-Lab/CFS-Seq/tree/master/inst/extdata)).  
 
-The script for generating [URI_Aph1_NT1_50kb.[bed/wig/bw]](https://github.com/CL-CHEN-Lab/CFS-Seq/tree/master/inst/outputs) is at [src/GenerateURI.R](https://github.com/CL-CHEN-Lab/CFS-Seq/tree/master/src/GenerateURI.R))
+The script for generating [URI_Aph1_NT1_50kb.[tab/bed/wig/bw]](https://github.com/CL-CHEN-Lab/CFS-Seq/tree/master/inst/outputs) is at [src/GenerateURI.R](https://github.com/CL-CHEN-Lab/CFS-Seq/tree/master/src/GenerateURI.R))
  
 
 ## Generate Significantly Delayed Windows (SDW) and Regions (SDR) :

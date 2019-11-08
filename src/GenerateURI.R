@@ -54,7 +54,7 @@ head(URI_Aph_NT,2)
 # 2 chr1 50000 100000 2.901 2.720  2.8105  0.4416197
 
 # write raw URI data :
-write.table(to_write,
+write.table(URI_Aph_NT,
             file = "../inst/outputs/URI_Aph1_NT1_50kb.tab",
             quote = FALSE,
             row.names = FALSE,

@@ -1,4 +1,3 @@
-#!/bin/bash
 # This file is part of CFS-Seq.
 # 
 # CFS-Seq is free software: you can redistribute it and/or modify
@@ -24,6 +23,7 @@
 ## ---------------------------
 
 ## DO
+#!/bin/bash
 
 # 1 - extract SDW as windows with (20 > MeanXY > 40) && (URI <= -2) :
 awk '(($6 >20) && ($6 < 40) && ($7 <= -2)) {print $1"\t"$2"\t"$3"\t"$7}' ../inst/outputs/URI_Aph1_NT1_50kb.tab > ../inst/outputs/SDW.bed

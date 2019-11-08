@@ -49,5 +49,12 @@ The script for generating [URI_Aph1_NT1_50kb.[tab/bed/wig/bw]](https://github.co
 
 ## Generate Significantly Delayed Windows (SDW) and Regions (SDR) :
 
+We then defined significantly delayed windows (SDW) as 50kb windows having an URI < -2. We found that these SDW were clustering together so we extended it as regions (SDR). The red boxes on the profiles below show the identified SDR for FHIT (FRA3B) and WWOX (FRA16D) genes.
+
+
+<p align="center">
+<img src="inst/img/FHIT_WWOX_replication_profiles_SDR.png" width="400" height="400">
+ </p>
+
  
  

@@ -53,6 +53,14 @@ head(URI_Aph_NT,2)
 # 1 chr1     0  50000 2.243 2.574  2.4085 -0.7684050
 # 2 chr1 50000 100000 2.901 2.720  2.8105  0.4416197
 
+# write raw URI data :
+write.table(to_write,
+            file = "../inst/outputs/URI_Aph1_NT1_50kb.tab",
+            quote = FALSE,
+            row.names = FALSE,
+            col.names = FALSE,
+            sep = "\t")
+
 # write BED :
 to_write <- URI_Aph_NT %>% select(chr,start,stop,URI)
 head(to_write,2)

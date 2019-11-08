@@ -1,4 +1,4 @@
-
+#!/bin/bash
 # This file is part of CFS-Seq.
 # 
 # CFS-Seq is free software: you can redistribute it and/or modify

@@ -7,7 +7,7 @@ From count matrices to SDR (significantly delayed region) identification.
 ## Introduction :
  
 This repository contains the source data and codes that were used to generate the results and plots used in the paper:  
-[Brison O*, S EL-Hilali* et al. (2019) Transcription-Mediated Organization of the Replication Initiation Program Across Large Genes Sets Up Common Fragile Sites Genome-Wide. bioRxiv, doi: https://doi.org/10.1101/714717, *Nat. Commun.* Final revision]( https://doi.org/10.1101/714717 ).  
+[Brison O*, S EL-Hilali* et al. (2019) Transcription-Mediated Organization of the Replication Initiation Program Across Large Genes Sets Common Fragile Sites Genome-Wide. bioRxiv, doi: https://doi.org/10.1101/714717, *Nat. Commun.* https://doi.org/10.1038/s41467-019-13674-5, In press](https://doi.org/10.1038/s41467-019-13674-5).  
 
 We provide here the methods for analyzing Repli-seq data from cells under normal growth conditions versus replication stress conditions, aiming at identifying and characterizing SDR (significantly delayed regions), which we showed to be correlated with molecular mapping of common fragile sites (CFS) in human lymphocytes.  
 
@@ -71,7 +71,7 @@ Don't hesitate to contact the authors or open an issue for any questions.
 
 ## References: 
 
-Brison O., EL-Hilali S., Azar D., Koundrioukoff1 S., Schmidt M, Naehse-Kumpf V., Jaszczyszyn Y., Lachages A.M., Dutrillaux B., Thermes C., Debatisse M. and CHEN C.L. (2019) [Transcription-Mediated Organization of the Replication Initiation Program Across Large Genes Sets Up Common Fragile Sites Genome-Wide](https://doi.org/10.1101/714717,). bioRxiv, doi: https://doi.org/10.1101/714717, *Nat. Commun*. In press.
+Brison O., EL-Hilali S., Azar D., Koundrioukoff1 S., Schmidt M, Naehse-Kumpf V., Jaszczyszyn Y., Lachages A.M., Dutrillaux B., Thermes C., Debatisse M. and CHEN C.L. (2019) [Transcription-Mediated Organization of the Replication Initiation Program Across Large Genes Sets Common Fragile Sites Genome-Wide](https://doi.org/10.1101/714717,). bioRxiv, doi: https://doi.org/10.1101/714717, *Nat. Commun*. [https://doi.org/10.1038/s41467-019-13674-5](https://doi.org/10.1038/s41467-019-13674-5), In press.
 
 
 

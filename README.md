@@ -63,9 +63,7 @@ The shell script for generating [SDW.bed/SDW_clean.bed/SDR.bed](https://github.c
 
 ## Authors: 
 
-Sami EL HILALI : sami.el-hilali@curie.fr (current email: elhilali.sami@gmail.com)  
-
-Chunlong CHEN : chunlong.chen@curie.fr
+[Sami EL HILALI](mailto:elhilali.sami@gmail.com) and [Chunlong CHEN](mailto:chunlong.chen@curie.fr) (Institut Curie) 
 
 Don't hesitate to contact the authors or open an issue for any questions.
 

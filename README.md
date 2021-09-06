@@ -69,7 +69,7 @@ Don't hesitate to contact the authors or open an issue for any questions.
 
 ## References: 
 
-Brison O., El-Hilali S., Azar, D., Koundrioukoff1 S., Schmidt M., Naehse-Kumpf V., Jaszczyszyn Y., Lachages A.M., Dutrillaux B., Thermes C., Debatisse M. and Chen C.L. (2019) [Transcription-Mediated Organization of the Replication Initiation Program Across Large Genes Sets Up Common Fragile Sites Genome-Wide.](https://doi.org/10.1038/s41467-019-13674-5) *Nat. Commun.* 10, 5693
+Brison O., El-Hilali S., Azar, D., Koundrioukoff1 S., Schmidt M., Naehse-Kumpf V., Jaszczyszyn Y., Lachages A.M., Dutrillaux B., Thermes C., Debatisse M. and Chen C.L. (2019) [Transcription-Mediated Organization of the Replication Initiation Program Across Large Genes Sets Up Common Fragile Sites Genome-Wide.](https://doi.org/10.1038/s41467-019-13674-5) ***Nat. Commun.*** 10, 5693
 
 
 
